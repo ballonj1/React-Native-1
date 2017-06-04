@@ -3,10 +3,12 @@ import { View, Text, FlatList } from 'react-native';
 import { contacts } from '../config/data';
 import colors from '../config/colors';
 import ListItem from '../components/ListItem/ListItem';
+import Details from './Details';
 
 class Contacts extends Component {
+
   handleRowPress(item){
-    return null
+    this.props.navigation.navigate('Detail', item)
   }
 
   render() {
