@@ -7,8 +7,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.43.4"
+    "react": "^16.0.0-alpha.6",
+    "react-native": "0.43.4",
+    "react-native-vector-icons": "^4.2.0"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
@@ -18,5 +19,18 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "Starting source code for the the [Create Your First React Native App](https://www.udemy.com/create-your-first-react-native-app) course. Each course section has its own branch.",
+  "main": "index.android.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HandlebarLabs/your-first-react-native-app-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HandlebarLabs/your-first-react-native-app-starter/issues"
+  },
+  "homepage": "https://github.com/HandlebarLabs/your-first-react-native-app-starter#readme"
 }
